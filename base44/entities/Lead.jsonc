@@ -1,0 +1,32 @@
+{
+  "name": "Lead",
+  "type": "object",
+  "properties": {
+    "naam": {
+      "type": "string"
+    },
+    "email": {
+      "type": "string"
+    },
+    "telefoon": {
+      "type": "string"
+    },
+    "postcode": {
+      "type": "string"
+    },
+    "project_type": {
+      "type": "string"
+    },
+    "bericht": {
+      "type": "string"
+    },
+    "status": {
+      "type": "string",
+      "default": "nieuw"
+    }
+  },
+  "required": [
+    "naam",
+    "email"
+  ]
+}
